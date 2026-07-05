@@ -1,0 +1,13 @@
+Plugin ID,CVE,CVSS v2.0 Base Score,Risk,Host,Protocol,Port,Name,Synopsis,Description,Solution,See Also,Plugin Output
+112529,CVE-2024-0001,9.8,Critical,http://testapp.example.local/search.php,tcp,80,SQL Injection,Synthetic sample finding.,Synthetic description.,Sanitize and parameterize all database queries.,,sample output
+112529,CVE-2024-0001,9.8,Critical,http://testapp.example.local/admin/index.php,tcp,80,SQL Injection,Synthetic sample finding.,Synthetic description.,Sanitize and parameterize all database queries.,,sample output
+112529,CVE-2024-0001,9.8,Critical,http://testapp.example.local/profile.php,tcp,80,SQL Injection,Synthetic sample finding.,Synthetic description.,Sanitize and parameterize all database queries.,,sample output
+98119,,7.4,High,http://testapp.example.local/login.php,tcp,80,Cross-Site Scripting (XSS),Synthetic sample finding.,Synthetic description.,Encode output and validate input on all user-supplied fields.,,sample output
+112530,"CVE-2023-1111,CVE-2023-2222",5.3,Medium,http://testapp.example.local/profile.php,tcp,80,Outdated JavaScript Library,Synthetic sample finding.,Synthetic description.,Upgrade the affected library to the latest version.,,sample output
+98615,,2.6,Low,http://testapp.example.local/api/v1/users,tcp,80,Missing Content-Security-Policy Header,Synthetic sample finding.,Synthetic description.,Add a restrictive Content-Security-Policy header.,,sample output
+98056,,,,http://testapp.example.local/login.php,tcp,80,HTTP Server Version Disclosure,Synthetic sample finding.,Synthetic description.,Suppress version information in HTTP response headers.,,sample output
+98056,,,,http://testapp.example.local/api/v1/users,tcp,80,HTTP Server Version Disclosure,Synthetic sample finding.,Synthetic description.,Suppress version information in HTTP response headers.,,sample output
+112610,,8.1,High,http://testapp.example.local/admin/index.php,tcp,80,Weak Password Policy Detected,Synthetic sample finding.,Synthetic description.,Enforce a strong password policy.,,sample output
+112610,,8.1,High,http://testapp.example.local/login.php,tcp,80,Weak Password Policy Detected,Synthetic sample finding.,Synthetic description.,Enforce a strong password policy.,,sample output
+112610,,8.1,High,http://testapp.example.local/api/v1/users,tcp,80,Weak Password Policy Detected,Synthetic sample finding.,Synthetic description.,Enforce a strong password policy.,,sample output
+112610,,8.1,High,http://testapp.example.local/profile.php,tcp,80,Weak Password Policy Detected,Synthetic sample finding.,Synthetic description.,Enforce a strong password policy.,,sample output

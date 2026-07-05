@@ -1,0 +1,6 @@
+Plugin,Plugin Name,Family,Severity,VPR,EPSS,Total,Host Total
+100001,Example Kernel Vulnerability (USN-0000-1),Ubuntu Local Security Checks,High,9.6,76.31,2,2
+100002,Example PHP End-of-Life Detection,CGI abuses,Critical,,,1,1
+100003,Example Outdated OpenSSL,General,Medium,5.1,3.20,4,2
+100004,Example SSH Weak Algorithms,Misc.,Low,2.2,0.04,3,3
+100005,Example HTTP Server Detection,Web Servers,Info,,,5,2

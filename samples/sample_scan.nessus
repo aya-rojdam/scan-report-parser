@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<NessusClientData_v2>
+  <Report name="Synthetic Sample">
+    <ReportHost name="192.0.2.10">
+      <ReportItem port="443" protocol="tcp" pluginID="201001" pluginName="TLS Version 1.0 Protocol Detection" severity="2">
+        <cvss3_base_score>6.5</cvss3_base_score>
+        <solution>Disable TLS 1.0 and enable TLS 1.2 or higher.</solution>
+        <cve>CVE-2011-3389</cve>
+      </ReportItem>
+      <ReportItem port="445" protocol="tcp" pluginID="201002" pluginName="SMB Signing Not Required" severity="2">
+        <cvss3_base_score>5.3</cvss3_base_score>
+        <solution>Enforce message signing in the host configuration.</solution>
+      </ReportItem>
+    </ReportHost>
+    <ReportHost name="192.0.2.20">
+      <ReportItem port="443" protocol="tcp" pluginID="201001" pluginName="TLS Version 1.0 Protocol Detection" severity="2">
+        <cvss3_base_score>6.5</cvss3_base_score>
+        <solution>Disable TLS 1.0 and enable TLS 1.2 or higher.</solution>
+        <cve>CVE-2011-3389</cve>
+      </ReportItem>
+      <ReportItem port="0" protocol="tcp" pluginID="201003" pluginName="Critical RCE in Example Service" severity="4">
+        <cvss3_base_score>9.8</cvss3_base_score>
+        <vpr_score>8.9</vpr_score>
+        <cve>CVE-2024-9999</cve>
+        <solution>Apply the vendor patch.</solution>
+      </ReportItem>
+    </ReportHost>
+  </Report>
+</NessusClientData_v2>
